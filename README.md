@@ -60,18 +60,20 @@ Geopandas https://geopandas.org/en/stable/index.html#
 
 ### 1- Data preprocesing: 
 
-* Unit conversions for better interpretability.
-* Aggregation of daily data into monthly data.
-* Extraction data for Uruguay from the global dataset.
-* Data division intro three periods: historical, future 1 and future 2.
+* Convert units for better interpretability.
+* Aggregate daily data into monthly data.
+* Extract Uruguay-specific data from the global dataset.
+* Divide data into three periods: historical, Future 1, and Future 2
 
 ### 2 - Counting analysis:
 
-In this step, I will calculate the category ranges for wind speed and precipitation. With this, I will study future monthly accumulated precipitation using INUMET's definition.
+* Determine category ranges for wind speed and precipitation.
+* Assess future precipitation trends using INUMET’s definitions.
 
 ### 3 - Severety analysis:
 
-In this step, I plan to study severity by counting the length in months of each drought episode for both variables, to construct severity histograms.
+* Measure the duration of drought episodes (in months).
+* Construct severity histograms for both meteorological and wind droughts.
 
 ## Expected outcomes:
 
