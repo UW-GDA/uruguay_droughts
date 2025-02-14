@@ -60,10 +60,10 @@ Geopandas https://geopandas.org/en/stable/index.html#
 
 ### 1- Data preprocesing: 
 
-Unit conversions for better interpretability.
-Aggregation of daily data into monthly data.
-Extraction data for Uruguay from the global dataset.
-Data division intro three periods: historical, future 1 and future 2.
+* Unit conversions for better interpretability.
+* Aggregation of daily data into monthly data.
+* Extraction data for Uruguay from the global dataset.
+* Data division intro three periods: historical, future 1 and future 2.
 
 ### 2 - Counting analysis:
 
