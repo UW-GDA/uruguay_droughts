@@ -1,4 +1,4 @@
-# Evaluating frequency and severity of wind and meteorological in Uruguay
+# Evaluating the frequency and severity of wind and meteorological droughts in Uruguay
 
 ## Member
 Hernán Querbes
