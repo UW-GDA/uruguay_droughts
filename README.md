@@ -15,6 +15,8 @@ The Uruguayan Institute of Meteorology (INUMET) uses seven categories to monitor
 * First, the monthly accumulated precipitation for the reference period (1985–2014) is divided into quintiles: much higher than normal (Category 5, 5th quintile), higher than normal (Category 4, 4th quintile), normal (Category 3, 3rd quintile), less than normal (Category 2, 2nd quintile), and much lower than normal (Category 1, 1st quintile). 
 * Then, Category 0 accounts for monthly accumulated precipitation lower than Category 1, while Category 6 accounts for monthly accumulated precipitation higher than Category 5 (2).
 
+This is summarized in Table 2:
+
 | Precip. Category | Name                          | Range values              |
 |-----------------|------------------------------|---------------------------|
 | 0               | Extremely lower than normal  | Lower than Quintile 1     |
