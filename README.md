@@ -1,4 +1,4 @@
-# Evaluating severity of wind and meteorological droughts using general circulation models
+# Evaluating frequency and severity of wind and meteorological in Uruguay
 
 ## Member
 Hernán Querbes
@@ -15,6 +15,16 @@ The Uruguayan Institute of Meteorology (INUMET) uses seven categories to monitor
 First, the monthly accumulated precipitation for the reference period (1985–2014) is divided into quintiles: much higher than normal (Category 5, 5th quintile), higher than normal (Category 4, 4th quintile), normal (Category 3, 3rd quintile), less than normal (Category 2, 2nd quintile), and much lower than normal (Category 1, 1st quintile). 
 
 Then, Category 0 accounts for monthly accumulated precipitation lower than Category 1, while Category 6 accounts for monthly accumulated precipitation higher than Category 5 (2).
+
+| Precip. Category | Name                          | Range values              |
+|-----------------|------------------------------|---------------------------|
+| 0               | Extremely lower than normal  | Lower than Quintile 1     |
+| 1               | Much lower than normal       | Quintile 1                |
+| 2               | Less than normal             | Quintile 2                |
+| 3               | Normal                        | Quintile 3                |
+| 4               | Higher than normal           | Quintile 4                |
+| 5               | Much higher than normal      | Quintile 5                |
+| 6               | Extremely higher than normal | Bigger than Quintile 5    |
 
 
 INUMET defines meteorological drought as three or more consecutive months with precipitation category equal or less than 2 (3). INUMET does not have a definition for wind droughts. Therefore, for the purpose of this project, I will apply an analogous definition to that of meteorological drought for wind drought.
