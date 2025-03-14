@@ -81,7 +81,22 @@ There are two expected outcomes:
 
 1- Count of droughts (wind and meteorological) for the three time periods.
 
-2- A severity histogram (number of consecutive drought months) for the three time periods.
+2- Kernel density plots (number of consecutive drought months) for the three time periods.
+
+## Results:
+
+### Data pre-processing:
+Datasets consisted of daily values of precipitation, wind speed, and temperature, which were grouped by month. They then appeared as follows:
+
+![download](https://github.com/user-attachments/assets/ea1ea3e9-e07b-4e38-9fb7-4b8d02370c33)
+
+This was done for all three variables across three time periods.
+
+|Tieme periods | Years range|
+|-----------------|------------------------------|
+| 0               | 1985-2014 | 
+| 1               | 2025-2044  | 
+| 2               | 2045-2064  | 
 
 ## References
 
