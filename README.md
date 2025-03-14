@@ -86,7 +86,9 @@ There are two expected outcomes:
 ## Results:
 
 ### Data pre-processing:
-Datasets consisted of daily values of precipitation, wind speed, and temperature, which were grouped by month. They then appeared as follows:
+The dataset consisted of daily values for precipitation, wind speed, and temperature. These variables were aggregated as follows:
+* Precipitation: Aggregated by monthly sum.
+* Wind speed and temperature: Aggregated by monthly mean.
 
 ![download](https://github.com/user-attachments/assets/ea1ea3e9-e07b-4e38-9fb7-4b8d02370c33)
 
@@ -98,10 +100,11 @@ This was done for all three variables across three time periods.
 | 1               | 2025-2044  | 
 | 2               | 2045-2064  | 
 
+### Counting and severity analysis:
 
-
-
-
+After aggreating the dataset, clasification as mentioned in the introduction was performed. Then, monthly categories datasets were obtained.
+* For precipitation and wind speed, consecutive months of category 2 or below were looked for, meaning lower precipitation/wind speed than normal.
+* For temperature, consecutive months of category 4 or above were looked for, meaning higher temperature than normal.
 
 
 ## References
