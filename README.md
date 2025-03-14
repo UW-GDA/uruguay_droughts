@@ -106,6 +106,9 @@ After aggreating the dataset, clasification as mentioned in the introduction was
 * For precipitation and wind speed, consecutive months of category 2 or below were looked for, meaning lower precipitation/wind speed than normal.
 * For temperature, consecutive months of category 4 or above were looked for, meaning higher temperature than normal.
 
+Then the counting analysis was done in the next way:
+
+
 
 ## References
 
