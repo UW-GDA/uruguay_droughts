@@ -4,7 +4,7 @@
 Hernán Querbes
 
 ## Short summary
-In this work, I will study the frequency and severity of meteorological and wind droughts over Uruguay for two future periods: Future 1 (2030s), covering 2025 to 2045, and Future 2 (2050s), covering 2045 to 2065. For this, I will use NASA’s NEX-GDDP-CMIP6 dataset and the SSP3-7.0 scenario for future projections.
+In this work, I will study the frequency and severity of meteorological and wind droughts over Uruguay for two future periods: Future 1 (2030s), covering 2025 to 2044, and Future 2 (2050s), covering 2045 to 2064. For this, I will use NASA’s NEX-GDDP-CMIP6 dataset and the SSP3-7.0 scenario for future projections.
 
 ## Some introduction background
 
@@ -92,11 +92,17 @@ Datasets consisted of daily values of precipitation, wind speed, and temperature
 
 This was done for all three variables across three time periods.
 
-|Tieme periods | Years range|
-|-----------------|------------------------------|
-| 0               | 1985-2014 | 
+|Time periods     | Years range|
+|-----------------|------------|
+| 0               | 1985-2014  | 
 | 1               | 2025-2044  | 
 | 2               | 2045-2064  | 
+
+
+
+
+
+
 
 ## References
 
