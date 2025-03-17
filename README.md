@@ -56,6 +56,8 @@ Rioxarray https://corteva.github.io/rioxarray/html/rioxarray.html
 
 Geopandas https://geopandas.org/en/stable/index.html# 
 
+Seaborn https://seaborn.pydata.org/
+
 ## Planned methodology/aproach
 
 ### 1- Data preprocesing: 
@@ -107,6 +109,11 @@ After aggreating the dataset, clasification as mentioned in the introduction was
 * For temperature, consecutive months of category 4 or above were looked for, meaning higher temperature than normal.
 
 Then the counting analysis was done in the next way:
+
+## Conclusions:
+
+
+## Future directions:
 
 
 
