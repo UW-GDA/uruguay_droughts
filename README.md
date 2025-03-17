@@ -134,16 +134,32 @@ Then Kernel Density plots were made:
 
 ![download](https://github.com/user-attachments/assets/5ed63f6c-37cb-4f07-9f81-35e314d8985d)
 
+![download](https://github.com/user-attachments/assets/a0eb089e-a043-4006-b2d4-1444fe90eef2)
+
+
 ![download-1](https://github.com/user-attachments/assets/9fc153e0-a90e-4333-be95-6b3c902ee723)
+
+![download-1](https://github.com/user-attachments/assets/fb004550-ecd1-458e-addb-6ee59641f6cf)
+
 
 ![download-2](https://github.com/user-attachments/assets/7a35294e-8664-4c0f-8c04-471407c0d78b)
 
+![download-2](https://github.com/user-attachments/assets/7f7abb8e-303b-4526-bb38-b26a43c56aa0)
+
+
 ![download-3](https://github.com/user-attachments/assets/ae82b48c-0bb7-4640-809b-3e2d8fe5587b)
+
+![download-3](https://github.com/user-attachments/assets/475fe0cd-1774-41e7-94b8-4893841aa8a1)
+
 
 ![download-4](https://github.com/user-attachments/assets/6b20afa3-34c2-4d73-adba-b15a1db808c0)
 
+![download-4](https://github.com/user-attachments/assets/88f1b633-76be-42d6-ab9e-af5bffcea7f0)
+
+
 ![download-5](https://github.com/user-attachments/assets/ef3e12e2-5afe-4289-b990-7a1af6533c9b)
 
+![download-5](https://github.com/user-attachments/assets/4296558c-c65a-478f-9c9a-df6784919dd5)
 
 
 
