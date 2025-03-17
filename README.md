@@ -126,7 +126,8 @@ Then the counting analysis was done in the next way:
   * Episodes vector: tracks the index of the starting month.
   * Severity vector: tracks the total number of consecutive qualifying months starting from each month.
 
-This procedur is showed in the nest figure:
+This procedure is shown in the next figure:
+
 ![drought_count drawio (1)](https://github.com/user-attachments/assets/325d41f4-0d8c-4414-8226-c957ba6114c2)
 
 
