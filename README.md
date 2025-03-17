@@ -132,11 +132,17 @@ Then the counting analysis was done in the next way:
 This procedure is shown in the next figure:
 
 ![drought_count drawio (1)](https://github.com/user-attachments/assets/325d41f4-0d8c-4414-8226-c957ba6114c2)
+
 **Figure 1:** Drought Count Diagram
 
-Then Kernel Density plots were made:
+From these outputs, Kernel Density and returning perdios plots were made:
 
-![download](https://github.com/user-attachments/assets/5ed63f6c-37cb-4f07-9f81-35e314d8985d)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5ed63f6c-37cb-4f07-9f81-35e314d8985d">
+  <br>
+  <strong>Figure 2:</strong> Kernel density plot for precipitation under the SSP126 scenario.
+  <br><br><br> 
+</div>
 
 ![download](https://github.com/user-attachments/assets/a0eb089e-a043-4006-b2d4-1444fe90eef2)
 
