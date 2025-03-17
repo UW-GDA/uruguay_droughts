@@ -169,7 +169,7 @@ Then Kernel Density plots were made:
 
 ## Future directions:
 
-
+* Apply this analysis to other models also recommended by Bazzanella et al. (4).  
 
 ## References
 
