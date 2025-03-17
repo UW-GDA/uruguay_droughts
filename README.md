@@ -1,5 +1,8 @@
 # Evaluating the frequency and severity of wind and meteorological droughts in Uruguay
 
+![image](https://github.com/user-attachments/assets/a4c37e8d-1682-4fc8-9e05-60e615748b88)
+
+
 ## Member
 Hernán Querbes
 
