@@ -130,6 +130,23 @@ This procedure is shown in the next figure:
 
 ![drought_count drawio (1)](https://github.com/user-attachments/assets/325d41f4-0d8c-4414-8226-c957ba6114c2)
 
+Then Kernel Density plots were made:
+
+![download](https://github.com/user-attachments/assets/5ed63f6c-37cb-4f07-9f81-35e314d8985d)
+
+![download-1](https://github.com/user-attachments/assets/9fc153e0-a90e-4333-be95-6b3c902ee723)
+
+![download-2](https://github.com/user-attachments/assets/7a35294e-8664-4c0f-8c04-471407c0d78b)
+
+![download-3](https://github.com/user-attachments/assets/ae82b48c-0bb7-4640-809b-3e2d8fe5587b)
+
+![download-4](https://github.com/user-attachments/assets/6b20afa3-34c2-4d73-adba-b15a1db808c0)
+
+![download-5](https://github.com/user-attachments/assets/ef3e12e2-5afe-4289-b990-7a1af6533c9b)
+
+
+
+
 
 ## Conclusions:
 
