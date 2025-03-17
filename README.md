@@ -109,16 +109,25 @@ After aggreating the dataset, clasification as mentioned in the introduction was
 * For temperature, consecutive months of category 4 or above were looked for, meaning higher temperature than normal.
 
 Then the counting analysis was done in the next way:
-* A square array (classification) was created, with its sides equal to the total number of months in the dataset. This array was initialized with zeros.
-* Precipitation and Wind Speed:
-  * Each entry corresponding to a month that meets the condition (category ≤ 2) was replaced with a 1.
-* Temperature:
-  * Each entry corresponding to a month that meets the condition (category ≥ 4) was replaced with a 1.
+* A square array was created, with its sides equal to the total number of months in the dataset. This array was initialized with zeros
+  * Rows are the starting month of the cnsecutive count.
+  * Columns are the subsequent months.
+* For each starting month, meaning: (i,i) entries:
+  * Precipitation and Wind Speed:
+    * Each entry corresponding to a month that meets the condition (category ≤ 2) was replaced with a 1.
+  * Temperature:
+    * Each entry corresponding to a month that meets the condition (category ≥ 4) was replaced with a 1.
 * Starting from each month, the code iterates through subsequent months:
   * If the condition is still met, the corresponding entry remains 1.
   * If the condition is not met, the counting stops for that starting month, and the loop moves to the next month.
+* Finally, we obtain the number of consecutive qualifying months starting from each month by summing the entries of each row.
 
+* Outputs:
+  * Episodes vector: tracks the index of the starting month.
+  * Severity vector: tracks the total number of consecutive qualifying months starting from each month.
 
+This procedur is showed in the nest figure:
+![drought_count drawio (1)](https://github.com/user-attachments/assets/325d41f4-0d8c-4414-8226-c957ba6114c2)
 
 
 ## Conclusions:
