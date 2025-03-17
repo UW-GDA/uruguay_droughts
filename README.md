@@ -109,6 +109,17 @@ After aggreating the dataset, clasification as mentioned in the introduction was
 * For temperature, consecutive months of category 4 or above were looked for, meaning higher temperature than normal.
 
 Then the counting analysis was done in the next way:
+* A square array (classification) was created, with its sides equal to the total number of months in the dataset. This array was initialized with zeros.
+* Precipitation and Wind Speed:
+  * Each entry corresponding to a month that meets the condition (category ≤ 2) was replaced with a 1.
+* Temperature:
+  * Each entry corresponding to a month that meets the condition (category ≥ 4) was replaced with a 1.
+* Starting from each month, the code iterates through subsequent months:
+  * If the condition is still met, the corresponding entry remains 1.
+  * If the condition is not met, the counting stops for that starting month, and the loop moves to the next month.
+
+
+
 
 ## Conclusions:
 
