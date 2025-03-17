@@ -229,7 +229,8 @@ From these outputs, Kernel Density and returning perdios plots were made:
 
 ## Future directions:
 
-* Apply this analysis to other models also recommended by Bazzanella et al. (4).  
+* Apply this analysis to other models also recommended by Bazzanella et al. (4).
+* Look for spatial trends.  
 
 ## References
 
