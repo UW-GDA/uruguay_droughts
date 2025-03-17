@@ -132,6 +132,7 @@ Then the counting analysis was done in the next way:
 This procedure is shown in the next figure:
 
 ![drought_count drawio (1)](https://github.com/user-attachments/assets/325d41f4-0d8c-4414-8226-c957ba6114c2)
+**Figure 1:** Drought Count Diagram
 
 Then Kernel Density plots were made:
 
