@@ -63,7 +63,7 @@ Seaborn https://seaborn.pydata.org/
 
 ## Planned methodology/aproach
 
-### 1- Data preprocesing: 
+### 1- Data preprocessing: 
 
 * Convert units for better interpretability.
 * Aggregate daily data into monthly data.
@@ -75,7 +75,7 @@ Seaborn https://seaborn.pydata.org/
 * Determine category ranges for wind speed and precipitation.
 * Assess future precipitation trends using INUMET’s definitions.
 
-### 3 - Severety analysis:
+### 3 - Severity analysis:
 
 * Measure the duration of drought episodes (in months).
 * Construct severity histograms for both meteorological and wind droughts.
