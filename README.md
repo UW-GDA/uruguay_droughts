@@ -141,7 +141,7 @@ This procedure is shown in the next figure:
 From these outputs, Kernel Density and returning perdios plots were made:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/5ed63f6c-37cb-4f07-9f81-35e314d8985d">
+  <img src="https://github.com/user-attachments/assets/df5a7c83-32f8-4cac-b700-9deef49d782f">
   <br>
   <strong>Figure 2:</strong> Kernel density plot for precipitation under the SSP126 scenario.
   <br><br><br> 
@@ -155,7 +155,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9fc153e0-a90e-4333-be95-6b3c902ee723">
+  <img src="https://github.com/user-attachments/assets/9361b6fa-7155-4f35-bca4-17962e0213ed">
   <br>
   <strong>Figure 4:</strong> Kernel density plot for wind speed under the SSP126 scenario.
   <br><br><br> 
@@ -169,7 +169,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/7a35294e-8664-4c0f-8c04-471407c0d78b">
+  <img src="https://github.com/user-attachments/assets/4ade72a4-5871-4d56-a94d-2542572bb722">
   <br>
   <strong>Figure 6:</strong> Kernel density plot for temperature under the SSP126 scenario.
   <br><br><br> 
@@ -183,7 +183,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ae82b48c-0bb7-4640-809b-3e2d8fe5587b">
+  <img src="https://github.com/user-attachments/assets/9cdf894d-1179-4e0e-9671-09c682a5df24">
   <br>
   <strong>Figure 8:</strong> Kernel density plot for precipitation under the SSP370 scenario.
   <br><br><br> 
@@ -197,7 +197,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6b20afa3-34c2-4d73-adba-b15a1db808c0">
+  <img src="https://github.com/user-attachments/assets/17b7353a-336f-4590-8783-f054193a35c2">
   <br>
   <strong>Figure 10:</strong> Kernel density plot for wind speed under the SSP370 scenario.
   <br><br><br> 
@@ -211,7 +211,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ef3e12e2-5afe-4289-b990-7a1af6533c9b">
+  <img src="https://github.com/user-attachments/assets/0e7c27af-ef91-47d1-be22-279f76ac2459">
   <br>
   <strong>Figure 12:</strong> Kernel density plot for temperature under the SSP370 scenario.
   <br><br><br> 
