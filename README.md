@@ -148,12 +148,11 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f91c5867-b990-4038-a3d6-74d013aa82a1">
+  <img src="https://github.com/user-attachments/assets/660a2b09-15f3-4834-ad5d-f330a09b8c7b">
   <br>
   <strong>Figure 3:</strong> Returning period plot for precipitation under the SSP126 scenario.
   <br><br><br> 
 </div>
-
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9fc153e0-a90e-4333-be95-6b3c902ee723">
@@ -163,12 +162,11 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/da28b5ea-3d93-477e-9862-14bf0660f92e">
+  <img src="https://github.com/user-attachments/assets/201d73f0-54dc-45df-bc9c-b4c012dffbe8">
   <br>
   <strong>Figure 5:</strong> Returning period plot for wind speed under the SSP126 scenario.
   <br><br><br> 
 </div>
-
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7a35294e-8664-4c0f-8c04-471407c0d78b">
@@ -178,7 +176,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c85a7f2e-6d06-4a78-99a6-c935b8f30e4e">
+  <img src="https://github.com/user-attachments/assets/2cf94961-26f4-457c-9b9f-773dd98bb852">
   <br>
   <strong>Figure 7:</strong> Returning period plot for temperature under the SSP126 scenario.
   <br><br><br> 
