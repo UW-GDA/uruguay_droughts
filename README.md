@@ -236,41 +236,63 @@ The kernel density plots for this model show similar distributions for the histo
 
 ### Wind speed and ssp126 (Figures 4 and 5):
 
-Examining Figures 4 and 5, we observe several substantial differences. For the EC-Earth3 model, the kernel density distribution for the historical and Future 1 periods appears almost identical, while the Future 2 kernel plot shows a broader range of consecutive months. Regarding the return periods, the historical period seems to be midway between Future 1 and Future 2. In Future 1, we observe how wind speed reaches extremes for fewer months at higher return periods, while in Future 2, this worsens with an increased drought period at lower return periods.
+#### EC-Earth3 model
 
-For the TaiESM1 model, we notice a reduction in the range of consecutive months over time (Historical > Future 1 > Future 2). Despite this, we observe similar return periods for a lower number of consecutive months.
+The kernel density distribution for the historical and Future 1 periods appears almost identical, while the Future 2 kernel plot shows a broader range of consecutive months. Regarding the return periods, the historical period seems to fall between Future 1 and Future 2. In Future 1, wind speed extremes occur for fewer consecutive months at higher return periods, and this pattern worsens in Future 2, with longer drought periods observed at lower return periods.
+
+#### TaiESM1 model
+
+For the TaiESM1 model, we notice a reduction in the range of consecutive months over time (Historical > Future 1 > Future 2). Despite this, we observe similar return periods up to four consecutive months. Beyond that, Future 2 shows longer return periods than Future 1, and Future 1 shows longer return periods than the historical period.
 
 ### Temperature and ssp126 (Figures 6 and 7):
 
-For the EC-Earth3 model, we can see very similar shapes in the kernel density plots. This is also reflected in the returning period plot, with only a difference in the returning period for 6 consecutive months of extreme values. While for historical values we see a 15-year return period, for future ones we see values of 3 and 5 years. This contrasts with the TaiESM1 model, which shows similar historical values compared to the previous model, but the future values differ. They have more probability concentrated on lower values of consecutive months, for which we also observe higher return periods, indicating fewer episodes and less severity of extreme temperature values.
+#### EC-Earth3 model
+
+For the EC-Earth3 model, the kernel density plots show very similar shapes. This similarity is also reflected in the return period plot, with a substantial difference only in the return period for six consecutive months. While the historical period shows a 15-year return period, the future periods show values of 3 and 5 years, indicating a higher frequency of extreme temperature events.
+
+#### TaiESM1 model
+
+In contrast to the previous model, this one shows a similar density distribution for the historical period, but the future periods differ, being more concentrated at lower consecutive month values. However, we observe higher return periods for up to three consecutive months compared to the historical period, indicating fewer episodes and less severe extreme temperature events the opposite conclusion of the previous model.
 
 ### Precipitation and ssp370 (Figures 8 and 9):
 
+#### EC-Earth3 model
+
 In this case, for the EC-Earth3 model, we see kernel density plots for future periods in a smaller range of values compared to the historical period. In the returning period plot, we observe that extreme values of precipitation have larger return periods, indicating fewer episodes with less severity. 
+
+#### TaiESM1 model
+
 In contrast, the TaiESM1 model shows the opposite behavior, with more severe episodes in the future compared to the historical values, along with higher frequency.
 
-
 ### Wind speed and ssp370 (Figures 10 and 11):
+
+#### EC-Earth3 model
 
 In the EC-Earth3 model, the density curves are similar across periods, with a slight shift in the future distributions.
 In the TaiESM1 model, the historical distribution is more concentrated on lower values, while future periods show a reduced probability for longer extreme wind events.
 In the EC-Earth3 model, higher severity levels have increased return periods in the future, indicating that extreme wind events will be less frequent.
+
+#### TaiESM1 model
+
 In the TaiESM1 model, the return periods also increase for future scenarios, particularly at higher severity levels, suggesting that the most extreme wind events will occur less often.
 
 ### Temperature and ssp370 (Figures 12 and 13):
+
+#### EC-Earth3 model
 
 The EC-Earth3 model shows similar historical and future distributions in the kernel plots, with a slight shift in probabilities.
 The TaiESM1 model reveals more pronounced differences, where future distributions concentrate more on lower-duration extreme temperature events.
 In the EC-Earth3 model, future periods show a decrease in return periods for high-severity events, indicating they will happen more frequently.
 
+#### TaiESM1 model
+
 In the TaiESM1 model, higher return periods for extreme severities suggest that intense temperature events may become less frequent in the future.
-
-# Scenarios comparison:
-
-# Models comparison:
 
 ## Conclusions:
 
+### Scenarios comparison:
+
+### Models comparison:
 
 ## Future directions:
 
