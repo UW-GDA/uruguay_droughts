@@ -229,9 +229,12 @@ From these outputs, Kernel Density and returning perdios plots were made:
 
 ### Precipitation and ssp126:
 
-Analyzing Figures 2 and 3 on precipitation and the SSP126 scenario, we can see that the range of consecutive drought months in the historical period is larger for the EC-Earth3 model than for the TaiESM1 model. For the same number of consecutive months, we observe comparable return periods for both the future and historical periods. Additionally, we see extremely similar return period values in the future periods, as indicated by the similar shapes. The exception is the TaiESM1 model, which shows a broader range of consecutive months.
+Analyzing Figures 2 and 3, we can see that the range of consecutive drought months in the historical period is larger for the EC-Earth3 model than for the TaiESM1 model. For the same number of consecutive months, we observe comparable return periods for both the future and historical periods. Additionally, we see extremely similar return period values in the future periods, as indicated by the similar shapes. The exception is the TaiESM1 model, which shows a broader range of consecutive months.
 
 ### Wind speed and ssp126:
+
+
+Examining Figures 4 and 5, we observe several substantial differences. For the EC-Earth3 model, the kernel density distribution for the historical and Future 1 periods appears almost identical, while the Future 2 kernel plot shows a broader range of consecutive months. For the TaiESM1 model, we notice a reduction in the range of consecutive months over time (Historical > Future 1 > Future 2). Despite this, we observe similar return periods where the number of consecutive months coincides across the periods.
 
 ### Temperature and ssp126:
 
@@ -242,7 +245,8 @@ Analyzing Figures 2 and 3 on precipitation and the SSP126 scenario, we can see t
 ### Temperature and ssp370:
 
 
-
+Global analysis:
+* All returning period for future periods is bellow the one for the historic period. 
 
 ## Conclusions:
 
