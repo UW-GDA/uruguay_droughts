@@ -227,12 +227,13 @@ From these outputs, Kernel Density and returning perdios plots were made:
 
 ### Precipitation and ssp126:
 
-Analyzing Figures 2 and 3, we can see that the range of consecutive drought months in the historical period is larger for the EC-Earth3 model than for the TaiESM1 model. For the same number of consecutive months, we observe comparable return periods for both the future and historical periods. Additionally, we see extremely similar return period values in the future periods, as indicated by the similar shapes. The exception is the TaiESM1 model, which shows a broader range of consecutive months.
+Analyzing Figures 2 and 3, we can see that the range of consecutive drought months in the historical period is larger for the EC-Earth3 model than for the TaiESM1 model. For the same number of consecutive months, we observe comparable return periods for both models in the future. However, in the historical period, we observe greater values for both consecutive months and return periods. Additionally, the return period values in the future periods are very similar, as indicated by the similar shapes. The exception is the TaiESM1 model, which shows a broader range of consecutive months and similar return periods, which increase after 5 consecutive months.
 
 ### Wind speed and ssp126:
 
+Examining Figures 4 and 5, we observe several substantial differences. For the EC-Earth3 model, the kernel density distribution for the historical and Future 1 periods appears almost identical, while the Future 2 kernel plot shows a broader range of consecutive months. Regarding the return periods, the historical period seems to be midway between Future 1 and Future 2. In Future 1, we observe how wind speed reaches extremes for fewer months at higher return periods, while in Future 2, this worsens with an increased drought period at lower return periods.
 
-Examining Figures 4 and 5, we observe several substantial differences. For the EC-Earth3 model, the kernel density distribution for the historical and Future 1 periods appears almost identical, while the Future 2 kernel plot shows a broader range of consecutive months. For the TaiESM1 model, we notice a reduction in the range of consecutive months over time (Historical > Future 1 > Future 2). Despite this, we observe similar return periods where the number of consecutive months coincides across the periods.
+For the TaiESM1 model, we notice a reduction in the range of consecutive months over time (Historical > Future 1 > Future 2). Despite this, we observe similar return periods for a lower number of consecutive months.
 
 ### Temperature and ssp126:
 
