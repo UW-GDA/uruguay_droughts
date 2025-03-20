@@ -284,11 +284,22 @@ Here, we see identical future distributions that are more dispersed in consecuti
 
 We see Future 2 as being midway between Future 1 and the historical period, with the latter being more dispersed at higher values of consecutive months. This behavior is also reflected in the return period plots, where Future 1 shows the smallest consecutive month values and the highest return periods, while the historical period shows the largest consecutive month values and the lowest return periods. This indicates a future where, initially, such episodes will become less common and severe, but later, they will increase in both frequency and severity.
 
+### Scenarios and models comparison:
+
+#### Precipitation:
+
+For each model, we observe similar density distributions and return period values across the different future scenarios. While the EC-Earth3 model suggests a future with less severe and less frequent drought episodes, the TaiESM1 model predicts slightly more frequent episodes in the future. No clear conclusion can be drawn from the comparison of these two models.
+
+#### Wind speed:
+
+For the EC-Earth3 model, we observe that the behavior of Future 2 is more dependent on the scenario. In an optimistic future (SSP126), it exhibits fewer wind drought episodes than in the past, while in a less optimistic future (SSP370), it shows more frequent extreme events. On the other hand, the TaiESM1 model predicts a future with fewer episodes under both scenarios, suggesting a general trend toward fewer wind drought episodes in the future.
+
+#### Temperature:
+
+The plots appear similar for both future scenarios. The most noticeable differences are between the models. While the EC-Earth3 model exhibits very similar behavior across the three periods (except for the six consecutive months episode, which shows considerable differences in the return period), the TaiESM1 model predicts similar futures for the SSP126 scenario, where events are less frequent than in the past. A similar pattern occurs in the SSP370 scenario, although here the short-term future appears worse than the long-term future.  No clear conclusion can be drawn from the comparison of these two models.
+
 ## Conclusions:
 
-### Scenarios comparison:
-
-### Models comparison:
 
 ## Future directions:
 
