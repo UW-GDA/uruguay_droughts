@@ -190,7 +190,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/45597b2e-6445-4e14-91f2-8483a841091e">
+  <img src="https://github.com/user-attachments/assets/6fbdc655-850f-4863-bcd4-ba8676d68bf5">
   <br>
   <strong>Figure 9:</strong> Returning period plot for precipitation under the SSP370 scenario.
   <br><br><br> 
@@ -204,7 +204,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/83f2ada8-502c-40d4-86f4-64aadcc1ab10">
+  <img src="https://github.com/user-attachments/assets/c8a59188-a1cd-4654-b43d-20512027dde0">
   <br>
   <strong>Figure 11:</strong> Returning period plot for wind speed under the SSP370 scenario.
   <br><br><br> 
@@ -218,7 +218,7 @@ From these outputs, Kernel Density and returning perdios plots were made:
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/dd66b238-926e-47d7-82ef-796a031636b4">
+  <img src="https://github.com/user-attachments/assets/f4cbb846-2bfe-486c-a30d-32bf592ea24f">
   <br>
   <strong>Figure 13:</strong> Returning period plot for temperature under the SSP370 scenario.
   <br><br><br> 
