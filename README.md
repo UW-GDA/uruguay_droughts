@@ -258,35 +258,31 @@ In contrast to the previous model, this one shows a similar density distribution
 
 #### EC-Earth3 model
 
-In this case, for the EC-Earth3 model, we see kernel density plots for future periods in a smaller range of values compared to the historical period. In the returning period plot, we observe that extreme values of precipitation have larger return periods, indicating fewer episodes with less severity. 
+Here, we observe a temporal trend where the historical period shows higher consecutive month values compared to Future 1, followed by Future 2, with values becoming more concentrated at lower levels over time. In the return period plot, we observe a similar pattern to the SSP126 scenario, where the future periods have longer return periods for the same number of consecutive months compared to the historical period.
 
 #### TaiESM1 model
 
-In contrast, the TaiESM1 model shows the opposite behavior, with more severe episodes in the future compared to the historical values, along with higher frequency.
+In contrast, the TaiESM1 model provides conclusions similar to those for the SSP126 scenario, where the historical period shows fewer consecutive months and longer return periods, presenting conclusions that are almost the opposite of those from the EC-Earth3 model.
 
 ### Wind speed and ssp370 (Figures 10 and 11):
 
 #### EC-Earth3 model
 
-In the EC-Earth3 model, the density curves are similar across periods, with a slight shift in the future distributions.
-In the TaiESM1 model, the historical distribution is more concentrated on lower values, while future periods show a reduced probability for longer extreme wind events.
-In the EC-Earth3 model, higher severity levels have increased return periods in the future, indicating that extreme wind events will be less frequent.
+Here, we see that the historical and Future 1 periods have similar kernel density plots, while Future 2 concentrates on lower values of consecutive months. Despite this, Future 2 has the longest return periods, followed by Future 1 and then the historical period. This leads us to the conclusion that, in the future, we will experience less severe and less frequent wind drought events.
 
 #### TaiESM1 model
 
-In the TaiESM1 model, the return periods also increase for future scenarios, particularly at higher severity levels, suggesting that the most extreme wind events will occur less often.
+In the kernel density plots, we see how Future 2 appears to be midway between the historical period and Future 1, with Future 1 being more concentrated on lower consecutive month values. Despite this, as with the previous model, the historical period shows smaller return period values compared to the future scenarios.
 
 ### Temperature and ssp370 (Figures 12 and 13):
 
 #### EC-Earth3 model
 
-The EC-Earth3 model shows similar historical and future distributions in the kernel plots, with a slight shift in probabilities.
-The TaiESM1 model reveals more pronounced differences, where future distributions concentrate more on lower-duration extreme temperature events.
-In the EC-Earth3 model, future periods show a decrease in return periods for high-severity events, indicating they will happen more frequently.
+Here, we see identical future distributions that are more dispersed in consecutive month values than the historical period, which is slightly more concentrated on lower values. However, the return period plots are almost identical up to five consecutive months, after which the historical period shows the highest return period values, indicating a future with more extreme temperature events.
 
 #### TaiESM1 model
 
-In the TaiESM1 model, higher return periods for extreme severities suggest that intense temperature events may become less frequent in the future.
+We see Future 2 as being midway between Future 1 and the historical period, with the latter being more dispersed at higher values of consecutive months. This behavior is also reflected in the return period plots, where Future 1 shows the smallest consecutive month values and the highest return periods, while the historical period shows the largest consecutive month values and the lowest return periods. This indicates a future where, initially, such episodes will become less common and severe, but later, they will increase in both frequency and severity.
 
 ## Conclusions:
 
