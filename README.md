@@ -119,7 +119,7 @@ The methodology is synthetized in the next figure:
 <div align="center">
   <img src="https://github.com/user-attachments/assets/13d1c4dd-d981-4624-9476-1db3bf8d84a2">
   <br>
-  <strong>Figure 1:</strong> Methodology ilustration.
+  <strong>Figure 1:</strong> Methodology Illustration: First, we convert the gridded data into a monthly dataset with its corresponding classification. Then, we conduct the severity analysis. The matrix shown is a mock example of the severity analysis.
   <br><br><br> 
 </div>
 
@@ -320,7 +320,7 @@ Conclusions are highly dependent on the models used:
 ## Future directions
 
 * Apply this analysis to other models also recommended by Bazzanella et al. (4).
-* Look for spatial trends.  
+* Look for spatial trends, specifically in the watershed where the hydroelectric dams in Uruguay are located.
 
 ## References
 
