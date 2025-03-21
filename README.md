@@ -31,7 +31,7 @@ This is summarized in thee next Table:
 | 6               | Extremely higher than normal | Bigger than Quintile 5    |
 
 
-INUMET defines a meteorological drought as three or more consecutive months with a precipitation category equal to or less than 2 (3). Since INUMET does not have a definition for wind droughts, I will adopt an analogous definition for wind droughts and extreme temperature events. However, in the case of extreme temperature events, I will identify sequences of months with a category equal to or greater than 4.
+INUMET defines a meteorological drought as three or more consecutive months with a precipitation category equal to or less than 2 (3). I will adopt an analogous definition for wind droughts and extreme temperature events. However, in the case of extreme temperature events, I will identify sequences of months with a category equal to or greater than 4, as I want to look for high temperature episodes.
 
 For this project I chose EC-EARTH3 and TaiESM1-0 models, since previous studies concluded that they exhibit superior performance in Southeastern South America (4). Also, I selected the SSP3–7.0 scenario, which represents a future where greenhouse gas emissions would double by 2100, resulting in an estimated warming of 2.1 °C from 2041–2060 and 3.6 °C from 2081–2100 (5).
 
