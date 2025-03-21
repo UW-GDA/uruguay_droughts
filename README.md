@@ -33,8 +33,10 @@ This is summarized in thee next Table:
 
 INUMET defines a meteorological drought as three or more consecutive months with a precipitation category equal to or less than 2 (3). I will adopt an analogous definition for wind droughts and extreme temperature events. However, in the case of extreme temperature events, I will identify sequences of months with a category equal to or greater than 4, as I want to look for high temperature episodes.
 
-For this project I chose EC-EARTH3 and TaiESM1-0 models, since previous studies concluded that they exhibit superior performance in Southeastern South America (4). Also, I selected the SSP3–7.0 scenario, which represents a future where greenhouse gas emissions would double by 2100, resulting in an estimated warming of 2.1 °C from 2041–2060 and 3.6 °C from 2081–2100 (5).
-
+For this project I chose EC-EARTH3 and TaiESM1-0 models, since previous studies concluded that they exhibit superior performance in Southeastern South America (4). Also, I selected two scenarios for future projections:
+* SSP1–2.6: 1.8 °C predicts an estimated warming by the end of the century
+* SSP3–7.0: 3.8 °C predicts an estimated warming by the end of the century
+  
 ## Problem statement and questions
 
 My current research focuses on assessing the impact of climate change on hydroelectric production in Uruguay, specifically how meteorological and wind droughts affect it. For this reason, the questions I plan to answer in this project are:
