@@ -9,7 +9,7 @@ Hernán Querbes
 ## Short summary
 In this work, I will study the frequency and severity of meteorological and wind droughts, as well as extreme temperature episodes, over Uruguay for two future periods: Future 1 (2030s), covering 2025 to 2044, and Future 2 (2050s), covering 2045 to 2064. For this, I will use NASA’s NEX-GDDP-CMIP6 dataset and the SSP1-2.6 and SSP3-7.0 scenarios for future projections.
 
-## Some introduction background
+## Introduction/background
 
 Between October 2020 and May 2023, Uruguay experienced one of its most severe meteorological droughts, leading to significant consequences, including a decline in drinking water quality due to low reserves in the Santa Lucía River, which supplies over half of the country’s population (1). 
 
