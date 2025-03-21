@@ -308,12 +308,14 @@ The plots appear similar for both future scenarios. The most noticeable differen
 
 ## Conclusions
 
+Conclusions are highly dependent on the models used:
+
 * Drought Events:
-  * EC-Earth3: Fewer drought episodes for precipitation (more wetter future). More frequent wind drought in optimistic conditions (SSP126) but less frequent and severe events in pessimistic conditions (SSP370)
-  * TaiESM1: Consistently predicts fewer and less severe drought episodes across both scenarios.
+  * EC-Earth3: Predicts fewer drought episodes related to precipitation, indicating a wetter future. Wind droughts are projected to become more frequent under optimistic conditions (SSP126) but less frequent and severe under pessimistic conditions (SSP370).
+  * TaiESM1: Consistently predicts fewer and less severe drought episodes across both scenarios for both variables.
 * Extreme Temperature Events:
-  * EC-Earth3: Projected increase in frequency and severity of extreme temperature events.
-  * TaiESM1: Initially less frequent episodes, but worsening conditions over scenarios.
+  * EC-Earth3: Projects an increase in both the frequency and severity of extreme temperature events.
+  * TaiESM1: Initially shows fewer extreme temperature episodes, but conditions are expected to worsen over time.
 
 ## Future directions
 
