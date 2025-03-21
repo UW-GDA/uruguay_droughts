@@ -48,6 +48,13 @@ My current research focuses on assessing the impact of climate change on hydroel
 ## Dataset
 
 NASA’s NEX-GDDP-CMIP6 dataset: https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6
+* Data Resolution:
+  * Latitude and Longitude resolution: 0.25 degrees (25 km)
+  * Temporal Resolution: daily
+  * Variables used:
+    * Precipitation (pr)
+    * Wind speed (sfcWind)
+    * Temperature (tas)
 
 ## Tools/packages
 
