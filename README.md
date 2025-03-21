@@ -83,7 +83,9 @@ Seaborn https://seaborn.pydata.org/
 ### 1- Data preprocessing 
 
 * Clip Uruguay geometry to the dataset.
-* Aggregate daily data into monthly data (Precipitation: sum. Wind speed and temperature: mean)
+* Aggregate daily data into monthly data using:
+  * Precipitation: sum.
+  * Wind speed and temperature: mean)
 * Divide data into three periods: historical, Future 1, and Future 2
 
 ### 2 - Categorization analysis
