@@ -119,7 +119,7 @@ The methodology is synthetized in the next figure:
 <div align="center">
   <img src="https://github.com/user-attachments/assets/13d1c4dd-d981-4624-9476-1db3bf8d84a2">
   <br>
-  <strong>Figure 1:</strong> Methodology Illustration: First, we convert the gridded data into a monthly dataset with its corresponding classification. Then, we conduct the severity analysis. The matrix shown is a mock example of the severity analysis.
+  <strong>Figure 1:</strong> Methodology Illustration: First, the gridded data is converted into a monthly dataset with its corresponding classification. Then, the severity analysis is performed. The matrix shown is a mock example of the severity analysis.
   <br><br><br> 
 </div>
 
