@@ -85,8 +85,8 @@ Seaborn https://seaborn.pydata.org/
 * Clip Uruguay geometry to the dataset.
 * Aggregate daily data into monthly data using:
   * Precipitation: sum.
-  * Wind speed and temperature: mean)
-* Divide data into three periods: historical, Future 1, and Future 2
+  * Wind speed and temperature: mean.
+* Divide data into three periods: historical, Future 1, and Future 2.
 
 ### 2 - Categorization analysis
 
@@ -96,9 +96,9 @@ Seaborn https://seaborn.pydata.org/
 
 * Measure the duration of drought episodes (in months).
 
-Then the counting analysis was done in the next way:
+This last analysis was done in the next way:
 * A square array was created, with its sides equal to the total number of months in the dataset. This array was initialized with zeros
-  * Rows are the starting month of the cnsecutive count.
+  * Rows are the starting month of the consecutive count.
   * Columns are the subsequent months.
 * For each starting month, meaning: (i,i) entries:
   * Precipitation and Wind Speed:
@@ -108,11 +108,11 @@ Then the counting analysis was done in the next way:
 * Starting from each month, the code iterates through subsequent months:
   * If the condition is still met, the corresponding entry remains 1.
   * If the condition is not met, the counting stops for that starting month, and the loop moves to the next month.
-* Finally, we obtain the number of consecutive qualifying months starting from each month by summing the entries of each row.
+* Finally, we obtain the number of consecutive months with extreme values, summing the entries of each row.
 
 * Outputs:
   * Episodes vector: tracks the index of the starting month.
-  * Severity vector: tracks the total number of consecutive qualifying months starting from each month.
+  * Severity vector: tracks the total number of consecutive months starting from each month.
 
 The methodology is synthetized in the next figure:
 
@@ -125,15 +125,15 @@ The methodology is synthetized in the next figure:
 
 ### 4 - Plots
 
-* Construct Kernel density plots and returning period plots for the three variables and periods of time.
+* Construct Kernel density plots and returning period plots for the three variables.
   
 ## Expected outcomes
 
 There are two expected outcomes:
 
-1- Kernel density plots (number of consecutive drought months) for the three time periods.
+1- Kernel density plots for the three time periods.
 
-2- Returning period plots (number of consecutive drought months) for the three time periods.
+2- Returning period plots for the three time periods.
 
 ## Results
 
