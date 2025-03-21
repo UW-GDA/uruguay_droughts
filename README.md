@@ -103,14 +103,16 @@ Then the counting analysis was done in the next way:
   * Episodes vector: tracks the index of the starting month.
   * Severity vector: tracks the total number of consecutive qualifying months starting from each month.
 
-The methodology is synthetized in the ne
+The methodology is synthetized in the next figure:
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/13d1c4dd-d981-4624-9476-1db3bf8d84a2">
   <br>
-  <strong>Figure 1:</strong> Drought Count Diagram
+  <strong>Figure 1:</strong> Methodology ilustration.
   <br><br><br> 
 </div>
+
+### 4 - Plots
 
 * Construct Kernel density plots and returning period plots for the three variables and periods of time.
   
@@ -133,7 +135,7 @@ The dataset consisted of daily values for precipitation, wind speed, and tempera
 
 This was done for all three variables across three time periods.
 
-Then the analysis was performed, resultin in the next plots:
+Then the analysis was performed, resulting in the next plots:
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/df5a7c83-32f8-4cac-b700-9deef49d782f">
