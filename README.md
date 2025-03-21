@@ -35,7 +35,7 @@ INUMET defines a meteorological drought as three or more consecutive months with
 
 For this project I chose EC-EARTH3 and TaiESM1-0 models, since previous studies concluded that they exhibit superior performance in Southeastern South America (4). Also, I selected the SSP3–7.0 scenario, which represents a future where greenhouse gas emissions would double by 2100, resulting in an estimated warming of 2.1 °C from 2041–2060 and 3.6 °C from 2081–2100 (5).
 
-## Problem statement and questions.
+## Problem statement and questions
 
 My current research focuses on assessing the impact of climate change on hydroelectric production in Uruguay, specifically how meteorological and wind droughts affect it. For this reason, the questions I plan to answer in this project are:
 
@@ -61,19 +61,27 @@ Geopandas https://geopandas.org/en/stable/index.html#
 
 Seaborn https://seaborn.pydata.org/
 
+## Repository structure
+
+* Filtered_data: Folder where the downloaded data is stored.
+* Data: Notebook used to download data.
+* Functions: Notebook used to perform the analysis.
+* gddp-cmip6-thredds-fileserver: CSV file containing URLs for accessing the climate data (used by the Data notebook).
+* ury_adm_2020_shp: File containing Uruguay's shape geometry.
+
 ## Planned methodology/aproach
 
-### 1- Data preprocessing: 
+### 1- Data preprocessing 
 
 * Clip Uruguay geometry to the dataset.
 * Aggregate daily data into monthly data (Precipitation: sum. Wind speed and temperature: mean)
 * Divide data into three periods: historical, Future 1, and Future 2
 
-### 2 - Categorization analysis:
+### 2 - Categorization analysis
 
 * Categorize each monthly value for the three variables and three periods using the INUMET method.
   
-### 3 - Severity analysis:
+### 3 - Severity analysis
 
 * Measure the duration of drought episodes (in months).
 
@@ -106,7 +114,7 @@ The matarix is shown in the next figure:
 
 * Construct Kernel density plots and returning period plots for the three variables and periods of time.
   
-## Expected outcomes:
+## Expected outcomes
 
 There are two expected outcomes:
 
@@ -114,9 +122,9 @@ There are two expected outcomes:
 
 2- Returning period plots (number of consecutive drought months) for the three time periods.
 
-## Results:
+## Results
 
-### Data pre-processing:
+### Data pre-processing
 The dataset consisted of daily values for precipitation, wind speed, and temperature. These variables were aggregated as follows:
 * Precipitation: Aggregated by monthly sum.
 * Wind speed and temperature: Aggregated by monthly mean.
@@ -211,9 +219,9 @@ Then the analysis was performed, resultin in the next plots:
   <br><br><br> 
 </div>
 
-## Analysis:
+## Analysis
 
-### Precipitation and ssp126 (Figures 2 and 3):
+### Precipitation and ssp126 (Figures 2 and 3)
 
 #### EC-Earth3 model
 Analyzing Figure 2, we can see that the range of consecutive drought months during the historical period is larger than in both future periods, which have fairly similar kernel density plots. For lower values of consecutive months, Figure 3 shows comparable return periods across the three periods. However, in the historical period, we observe lower return period values for four consecutive months, along with episodes of five or more consecutive months, which are absent in the future periods. This indicates a future with fewer prolonged low-precipitation episodes compared to the historical period.
@@ -221,7 +229,7 @@ Analyzing Figure 2, we can see that the range of consecutive drought months duri
 #### TaiESM1 model
 The kernel density plots for this model show similar distributions for the historical and future 1 periods, compared to future 2, which appears more dispersed in terms of the number of consecutive months. The return periods are similar up to four consecutive months, after which the differences become more pronounced. Future 2 exhibits the highest number of consecutive months, followed by the historical period and then future 1, suggesting that in the far future, extreme events may last longer than those observed during the historical period.
 
-### Wind speed and ssp126 (Figures 4 and 5):
+### Wind speed and ssp126 (Figures 4 and 5)
 
 #### EC-Earth3 model
 
@@ -231,7 +239,7 @@ The kernel density distribution for the historical and Future 1 periods appears 
 
 For the TaiESM1 model, we notice a reduction in the range of consecutive months over time (Historical > Future 1 > Future 2). Despite this, we observe similar return periods up to four consecutive months. Beyond that, Future 2 shows longer return periods than Future 1, and Future 1 shows longer return periods than the historical period.
 
-### Temperature and ssp126 (Figures 6 and 7):
+### Temperature and ssp126 (Figures 6 and 7)
 
 #### EC-Earth3 model
 
@@ -241,7 +249,7 @@ For the EC-Earth3 model, the kernel density plots show very similar shapes. This
 
 In contrast to the previous model, this one shows a similar density distribution for the historical period, but the future periods differ, being more concentrated at lower consecutive month values. However, we observe higher return periods for up to three consecutive months compared to the historical period, indicating fewer episodes and less severe extreme temperature events the opposite conclusion of the previous model.
 
-### Precipitation and ssp370 (Figures 8 and 9):
+### Precipitation and ssp370 (Figures 8 and 9)
 
 #### EC-Earth3 model
 
@@ -251,7 +259,7 @@ Here, we observe a temporal trend where the historical period shows higher conse
 
 In contrast, the TaiESM1 model provides conclusions similar to those for the SSP126 scenario, where the historical period shows fewer consecutive months and longer return periods, presenting conclusions that are almost the opposite of those from the EC-Earth3 model.
 
-### Wind speed and ssp370 (Figures 10 and 11):
+### Wind speed and ssp370 (Figures 10 and 11)
 
 #### EC-Earth3 model
 
@@ -261,7 +269,7 @@ Here, we see that the historical and Future 1 periods have similar kernel densit
 
 In the kernel density plots, we see how Future 2 appears to be midway between the historical period and Future 1, with Future 1 being more concentrated on lower consecutive month values. Despite this, as with the previous model, the historical period shows smaller return period values compared to the future scenarios.
 
-### Temperature and ssp370 (Figures 12 and 13):
+### Temperature and ssp370 (Figures 12 and 13)
 
 #### EC-Earth3 model
 
@@ -271,21 +279,21 @@ Here, we see identical future distributions that are more dispersed in consecuti
 
 We see Future 2 as being midway between Future 1 and the historical period, with the latter being more dispersed at higher values of consecutive months. This behavior is also reflected in the return period plots, where Future 1 shows the smallest consecutive month values and the highest return periods, while the historical period shows the largest consecutive month values and the lowest return periods. This indicates a future where, initially, such episodes will become less common and severe, but later, they will increase in both frequency and severity.
 
-### Scenarios and models comparison:
+### Scenarios and models comparison
 
-#### Precipitation:
+#### Precipitation
 
 For each model, we observe similar density distributions and return period values across the different future scenarios. While the EC-Earth3 model suggests a future with less severe and less frequent drought episodes, the TaiESM1 model predicts slightly more frequent episodes in the future. No clear conclusion can be drawn from the comparison of these two models.
 
-#### Wind speed:
+#### Wind speed
 
 For the EC-Earth3 model, we observe that the behavior of Future 2 is more dependent on the scenario. In an optimistic future (SSP126), it exhibits fewer wind drought episodes than in the past, while in a less optimistic future (SSP370), it shows more frequent extreme events. On the other hand, the TaiESM1 model predicts a future with fewer episodes under both scenarios, suggesting a general trend toward fewer wind drought episodes in the future.
 
-#### Temperature:
+#### Temperature
 
 The plots appear similar for both future scenarios. The most noticeable differences are between the models. While the EC-Earth3 model exhibits very similar behavior across the three periods (except for the six consecutive months episode, which shows considerable differences in the return period), the TaiESM1 model predicts similar futures for the SSP126 scenario, where events are less frequent than in the past. A similar pattern occurs in the SSP370 scenario, although here the short-term future appears worse than the long-term future.  No clear conclusion can be drawn from the comparison of these two models.
 
-## Conclusions:
+## Conclusions
 
 * Drought Events:
   * EC-Earth3: Fewer drought episodes for precipitation (more wetter future). More frequent wind drought in optimistic conditions (SSP126) but less frequent and severe events in pessimistic conditions (SSP370)
@@ -294,7 +302,7 @@ The plots appear similar for both future scenarios. The most noticeable differen
   * EC-Earth3: Projected increase in frequency and severity of extreme temperature events.
   * TaiESM1: Initially less frequent episodes, but worsening conditions over scenarios.
 
-## Future directions:
+## Future directions
 
 * Apply this analysis to other models also recommended by Bazzanella et al. (4).
 * Look for spatial trends.  
