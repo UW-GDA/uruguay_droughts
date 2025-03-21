@@ -7,7 +7,7 @@
 Hernán Querbes
 
 ## Short summary
-In this work, I will study the frequency and severity of meteorological and wind droughts over Uruguay for two future periods: Future 1 (2030s), covering 2025 to 2044, and Future 2 (2050s), covering 2045 to 2064. For this, I will use NASA’s NEX-GDDP-CMIP6 dataset and the SSP3-7.0 scenario for future projections.
+In this work, I will study the frequency and severity of meteorological and wind droughts, as well as extreme temperature episodes, over Uruguay for two future periods: Future 1 (2030s), covering 2025 to 2044, and Future 2 (2050s), covering 2045 to 2064. For this, I will use NASA’s NEX-GDDP-CMIP6 dataset and the SSP1-2.6 and SSP3-7.0 scenarios for future projections.
 
 ## Some introduction background
 
@@ -31,7 +31,7 @@ This is summarized in thee next Table:
 | 6               | Extremely higher than normal | Bigger than Quintile 5    |
 
 
-INUMET defines meteorological drought as three or more consecutive months with precipitation category equal or less than 2 (3). INUMET does not have a definition for wind droughts. Therefore, for the purpose of this project, I will apply an analogous definition to that of meteorological drought for wind drought.
+INUMET defines a meteorological drought as three or more consecutive months with a precipitation category equal to or less than 2 (3). Since INUMET does not have a definition for wind droughts, I will adopt an analogous definition for wind droughts and extreme temperature events. However, in the case of extreme temperature events, I will identify sequences of months with a category equal to or greater than 4.
 
 For this project I chose EC-EARTH3 and TaiESM1-0 models, since previous studies concluded that they exhibit superior performance in Southeastern South America (4). Also, I selected the SSP3–7.0 scenario, which represents a future where greenhouse gas emissions would double by 2100, resulting in an estimated warming of 2.1 °C from 2041–2060 and 3.6 °C from 2081–2100 (5).
 
@@ -39,9 +39,9 @@ For this project I chose EC-EARTH3 and TaiESM1-0 models, since previous studies 
 
 My current research focuses on assessing the impact of climate change on hydroelectric production in Uruguay, specifically how meteorological and wind droughts affect it. For this reason, the questions I plan to answer in this project are:
 
-1- Will meteorological droughts change in frequency and severity in the future?
+1- Will meteorological/wind droughts change in frequency and severity in the future?
 
-2- Will wind droughts change in frequency and severity in the future?
+2- How will the frequency and severity of extreme temperature events change in the future?
 
 ## Dataset
 
@@ -65,51 +65,17 @@ Seaborn https://seaborn.pydata.org/
 
 ### 1- Data preprocessing: 
 
-* Convert units for better interpretability.
-* Aggregate daily data into monthly data.
-* Extract Uruguay-specific data from the global dataset.
+* Clip Uruguay geometry to the dataset.
+* Aggregate daily data into monthly data (Precipitation: sum. Wind speed and temperature: mean)
 * Divide data into three periods: historical, Future 1, and Future 2
 
-### 2 - Counting analysis:
+### 2 - Categorization analysis:
 
-* Determine category ranges for wind speed and precipitation.
-* Assess future precipitation trends using INUMET’s definitions.
-
+* Categorize each monthly value for the three variables and three periods using the INUMET method.
+  
 ### 3 - Severity analysis:
 
 * Measure the duration of drought episodes (in months).
-* Construct severity histograms for both meteorological and wind droughts.
-
-## Expected outcomes:
-
-There are two expected outcomes:
-
-1- Count of droughts (wind and meteorological) for the three time periods.
-
-2- Kernel density plots (number of consecutive drought months) for the three time periods.
-
-## Results:
-
-### Data pre-processing:
-The dataset consisted of daily values for precipitation, wind speed, and temperature. These variables were aggregated as follows:
-* Precipitation: Aggregated by monthly sum.
-* Wind speed and temperature: Aggregated by monthly mean.
-
-![download](https://github.com/user-attachments/assets/ea1ea3e9-e07b-4e38-9fb7-4b8d02370c33)
-
-This was done for all three variables across three time periods.
-
-|Time periods     | Years range|
-|-----------------|------------|
-| 0               | 1985-2014  | 
-| 1               | 2025-2044  | 
-| 2               | 2045-2064  | 
-
-### Counting and severity analysis:
-
-After aggreating the dataset, clasification as mentioned in the introduction was performed. Then, monthly categories datasets were obtained.
-* For precipitation and wind speed, consecutive months of category 2 or below were looked for, meaning lower precipitation/wind speed than normal.
-* For temperature, consecutive months of category 4 or above were looked for, meaning higher temperature than normal.
 
 Then the counting analysis was done in the next way:
 * A square array was created, with its sides equal to the total number of months in the dataset. This array was initialized with zeros
@@ -129,7 +95,7 @@ Then the counting analysis was done in the next way:
   * Episodes vector: tracks the index of the starting month.
   * Severity vector: tracks the total number of consecutive qualifying months starting from each month.
 
-This procedure is shown in the next figure:
+The matarix is shown in the next figure:
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/325d41f4-0d8c-4414-8226-c957ba6114c2">
@@ -138,7 +104,28 @@ This procedure is shown in the next figure:
   <br><br><br> 
 </div>
 
-From these outputs, Kernel Density and returning perdios plots were made:
+* Construct Kernel density plots and returning period plots for the three variables and periods of time.
+  
+## Expected outcomes:
+
+There are two expected outcomes:
+
+1- Kernel density plots (number of consecutive drought months) for the three time periods.
+
+2- Returning period plots (number of consecutive drought months) for the three time periods.
+
+## Results:
+
+### Data pre-processing:
+The dataset consisted of daily values for precipitation, wind speed, and temperature. These variables were aggregated as follows:
+* Precipitation: Aggregated by monthly sum.
+* Wind speed and temperature: Aggregated by monthly mean.
+
+![download](https://github.com/user-attachments/assets/ea1ea3e9-e07b-4e38-9fb7-4b8d02370c33)
+
+This was done for all three variables across three time periods.
+
+Then the analysis was performed, resultin in the next plots:
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/df5a7c83-32f8-4cac-b700-9deef49d782f">
